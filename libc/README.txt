@@ -22,3 +22,6 @@ Functions completed:
 - strlcat
 - strchr
 - strrchr
+- strstr
+- strnstr (With bugs)
+- strcmp
