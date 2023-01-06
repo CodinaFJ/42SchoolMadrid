@@ -25,3 +25,4 @@ Functions completed:
 - strstr
 - strnstr (With bugs)
 - strcmp
+- strncmp
