@@ -4,6 +4,6 @@ All ongoing and finished projects in 42
 Finished projects:
 
 
-Ongoing prjects:
+Ongoing projects:
 
 - Libft
