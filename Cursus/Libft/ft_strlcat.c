@@ -1,23 +1,46 @@
-#include "libft.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/10 16:09:53 by jcodina-          #+#    #+#             */
+/*   Updated: 2023/01/10 16:09:55 by jcodina-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
+#include "libft.h"
+/**
+ * Appends the string src to the end of the string dest.
+ * String dest must have enough space to hold the result.
+ * Grants null termination. Safer than strcat and strncat.
+ * @param dest string to fill.
+ * @param src string to append.
+ * @param size buffer size of dest.
+ * @return Total length of the string tried to create
+ */
 size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
 	size_t	i;
 	size_t	dest_len;
 
 	i = 0;
-	while (dest[dest_len] != '\0')
+	while (dest[i])
+		i++;
+	if (size <= i)
+		return (size + ft_strlen(src));
+	dest_len = i;
+	while (src[i - dest_len] && i < size)
 	{
-		dest_len++;
-		if (dest_len >= size)
-			return (size);
+		dest[i] = src[i - dest_len];
+		i++;
 	}
-	if (ft_strlen(src) + 1 < (size - dest_len))
-		ft_strcpy(dest + dest_len, src);
+	if (size == i)
+		dest[size - 1] = '\0';
 	else
-	{
-		ft_strncpy(dest + dest_len, src, (size - dest_len) - 1);
-		dest[size] = '\0';
-	}
+		dest[i] = '\0';
+	if (size < dest_len)
+		return (size + ft_strlen(src));
 	return (dest_len + ft_strlen(src));
 }

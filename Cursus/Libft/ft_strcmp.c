@@ -1,5 +1,23 @@
-#include "libft.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/10 16:09:24 by jcodina-          #+#    #+#             */
+/*   Updated: 2023/01/10 16:09:25 by jcodina-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
+#include "libft.h"
+/**
+ * Compares strings s1 and s2 one byte at a time.
+ * @param s1 string 1.
+ * @param s2 string 2.
+ * @return 0 if the two strings are identical, otherwise returns the difference
+ * between the first two differing bytes.
+ */
 int	ft_strcmp(const char *s1, const char *s2)
 {
 	size_t	i;

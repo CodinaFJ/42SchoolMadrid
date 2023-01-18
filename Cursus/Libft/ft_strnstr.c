@@ -1,20 +1,43 @@
-#include "libft.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strnstr.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/10 16:10:50 by jcodina-          #+#    #+#             */
+/*   Updated: 2023/01/10 16:10:51 by jcodina-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-//I hesitate if len applies to needle or haystack. Right now it is applied to haystack.
-//Still, the comparison in the while loop can make get further than len and then it wouldn't work. This is a bug that MUST be fixed.
-char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
+#include "libft.h"
+/**
+ * Locates the first occurrence (in no more than len bytes of haystack)
+ * of the null-terminated string needle in the null-terminated string haystack.
+ * @param haystack string searched in.
+ * @param needle string searched for.
+ * @param len limit of searched characters searched in haystack.
+ * @return If needle is empty, haystack is returned.
+ * If needle occurs nowhere in haystack, NULL is returned.
+ * Otherwise a pointer to the first occurrence is returned.
+ */
+char	*ft_strnstr(const char *haystack, const char *needle, int len)
 {
 	char	*s;
-	int		cmp;
+	size_t	n_len;
 
 	if (*needle == '\0')
-		return (haystack);
-	s = haystack;
-	while (s != NULL && (int)(s - haystack) < (int)len)
+		return ((char *) haystack);
+	if (len < 0)
+		len = ft_strlen(haystack);
+	n_len = ft_strlen(needle);
+	s = (char *) haystack;
+	s = ft_strchr(haystack, (int)*needle);
+	while (s != NULL && ((s + n_len) - haystack) <= (long) len)
 	{
-		s = strchr(haystack, (int)*needle); 
-		if (ft_memcmp(s, needle, ft_strlen(needle)) == 0)
+		if (ft_memcmp(s, needle, n_len) == 0)
 			return (s);
+		s = ft_strchr(s + 1, (int)*needle);
 	}
-	return (s);
+	return (NULL);
 }

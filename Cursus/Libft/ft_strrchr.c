@@ -1,6 +1,32 @@
-#include "libft.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/10 16:11:01 by jcodina-          #+#    #+#             */
+/*   Updated: 2023/01/10 16:11:02 by jcodina-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
+#include "libft.h"
+/**
+ * Locates last occurrence of c in string s.
+ * @param s searched string
+ * @param c character to search
+ * @return Pointer to byte located, or NULL if there is no occurrence
+ */
 char	*ft_strrchr(const char *s, int c)
 {
-	return (ft_memrchr(s, c, ft_strlen(s) + 1));
+	int		i;
+
+	i = ft_strlen(s);
+	while (i >= 0)
+	{
+		if (s[i] == (char) c)
+			return ((char *)s + i);
+		i--;
+	}
+	return (NULL);
 }

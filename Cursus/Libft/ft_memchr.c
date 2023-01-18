@@ -1,5 +1,23 @@
-#include "libft.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/10 16:08:15 by jcodina-          #+#    #+#             */
+/*   Updated: 2023/01/10 16:08:17 by jcodina-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
+#include "libft.h"
+/**
+ * Locates first occurrence of c in memory area s within n bytes.
+ * @param s searched memory area.
+ * @param c character to search.
+ * @param n bytes to cover in the search.
+ * @return Pointer to byte located, or NULL if there is no occurrence.
+ */
 void	*ft_memchr(const void *s, int c, size_t n)
 {
 	size_t	i;
@@ -7,23 +25,9 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	i = 0;
 	while (i < n)
 	{
-		if (((unsigned char *)s) + i == (unsigned char *)c)
-			return (((unsigned char *)s) + i);
+		if ((*((unsigned char *)s + i)) == (unsigned char)c)
+			return ((void *) s + i);
 		i++;
-	}
-	return (NULL);
-}
-
-void	*ft_memrchr(const void *s, int c, size_t n)
-{
-	size_t	i;
-
-	i = n - 1;
-	while (i >= 0)
-	{
-		if (((unsigned char *)s) + i == (unsigned char *)c)
-			return (((unsigned char *)s) + i);
-		i--;
 	}
 	return (NULL);
 }

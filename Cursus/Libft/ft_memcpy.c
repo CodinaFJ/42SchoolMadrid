@@ -1,17 +1,42 @@
-#include "libft.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/10 16:08:32 by jcodina-          #+#    #+#             */
+/*   Updated: 2023/01/10 16:08:33 by jcodina-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
+#include "libft.h"
+/**
+ * Copy n bytes from memory area src to memory area dest.
+ * If dest and src overlap ft_memmove() is used instead.
+ * @param dest memory area to fill.
+ * @param src memory area to be copied.
+ * @param n number of bytes to copy.
+ * @return original value of dest.
+*/
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
 	size_t	i;
 
-	i = 0;
-	if ((unsigned char *)src + n >= (unsigned char *)dest)
-		ft_memmove(dest, src, n);
+	if (src == NULL && dest == NULL)
+		return (NULL);
+	if ((src >= dest && src <= dest + n)
+		|| (src <= dest && dest <= src + n))
+	{
+		if (ft_memmove(dest, src, n) == NULL)
+			return (NULL);
+	}
 	else
 	{
-		while(i < n)
+		i = 0;
+		while (i < n)
 		{
-			*((unsigned char *) dest) = *((unsigned char *)src + i);
+			*((unsigned char *) dest + i) = *((unsigned char *)src + i);
 			i++;
 		}
 	}

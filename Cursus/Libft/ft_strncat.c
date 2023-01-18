@@ -1,5 +1,25 @@
-#include "libft.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strncat.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/10 16:10:17 by jcodina-          #+#    #+#             */
+/*   Updated: 2023/01/10 16:10:18 by jcodina-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
+#include "libft.h"
+/**
+ * Append no more than n characters of the string src 
+ * to the end of the string dest.
+ * String s1 must have enough space to hold the result.
+ * @param dest string to fill
+ * @param src string to append
+ * @param n bytes to append
+ * @return pointer to dest
+ */
 char	*ft_strncat(char *dest, const char *src, size_t n)
 {
 	size_t	i;
