@@ -22,6 +22,9 @@ Each project includes a PDF with the **subject**, which explains the objectives,
 # :books:Projects Summary
 A brief words about each project and its status.
 ## :swimmer:Piscine
+
+![Unity Badge](https://img.shields.io/badge/-UNIX-white?style=for-the-badge&labelColor=black&logo=linux&logoColor=white)
+
 Projects done within 42 Pisnice: selection process of 26 days where candidates work on several exercices about C and Unix.<br />
 Since it is no longer in the scope of the cursus, these projects have been closed for modification.<br />
 Status:
