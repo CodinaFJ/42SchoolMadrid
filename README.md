@@ -15,7 +15,7 @@
   * [Libft](Cursus/Libft):black_square_button:
 * [Piscine](Piscine/):ballot_box_with_check:
 ###### Legend
-:black_square_button: Ongoing<br />
+:black_square_button: _Ongoing_<br />
 :white_check_mark: Complete<br />
 :ballot_box_with_check: Closed
 
