@@ -5,7 +5,7 @@
 
 
 
-# :dart: Repository Contents
+# :dart:Repository Contents
 * [Piscine](Piscine/):ballot_box_with_check:
 * [Cursus](Cursus/)
   * [Libft](Cursus/Libft):black_square_button:
@@ -18,9 +18,9 @@
 Repository with my work on 42 programming school. 
 Each project includes a PDF with the **subject**, which explains the objectives, restrictions and instructions to complete each one of them; along with a **Readme** file summarizing brief instructions on how it works, starting and completion dates (if any) and the current status or grade achived.
 
-# Projects Summary
+# :books:Projects Summary
 
-## Piscine
+## :swimmer:Piscine
 Projects done within 42 Pisnice: selection process of 26 days where candidates work on several exercices about C and Unix.<br />
 Since it is no longer in the scope of the cursus, these projects have been closed for modification.<br />
 Status:
