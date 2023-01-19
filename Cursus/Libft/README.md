@@ -6,6 +6,8 @@ you’ll be allowed to use in all your other projects.
 
 Functions completed
 
+## Status
+
 - [X] Basic Functions
 - [x] Advanced Functions
 - [x] Bonus
