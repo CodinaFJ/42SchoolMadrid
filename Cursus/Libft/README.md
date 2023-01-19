@@ -6,7 +6,7 @@ you’ll be allowed to use in all your other projects.
 
 Functions completed
 
-- [x] Basic Functions
+- [X] Basic Functions
 - [x] Advanced Functions
 - [x] Bonus
-- [] Evaluation 0/3
+- [ ] Evaluation 0/3
