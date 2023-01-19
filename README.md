@@ -5,7 +5,7 @@
 
 
 
-# :dart: Projects Contents
+# :dart: Repository Contents
 * [Cursus](Cursus/)
   * [Libft](Cursus/Libft):black_square_button:
 * [Piscine](Piscine/):ballot_box_with_check:
