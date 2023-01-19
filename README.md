@@ -21,7 +21,7 @@ Each project includes a PDF with the **subject**, which explains the objectives,
 # Projects Summary
 
 ## Piscine
-Projects done within 42 Pisnice: selection process of 26 days where condidates work on several exercices about C and Unix.<br />
+Projects done within 42 Pisnice: selection process of 26 days where candidates work on several exercices about C and Unix.<br />
 Since it is no longer in the scope of the cursus, these projects have been closed for modification.<br />
 Status:
 - Shell00:white_check_mark:
