@@ -2,7 +2,7 @@
 <img src="Resources/42_Logo.png" alt="42 Logo" width="100"/>
 
 ## Contents
-- Cursus
+* [Cursus](Cursus/)
   - Libft
 - Piscine
 
