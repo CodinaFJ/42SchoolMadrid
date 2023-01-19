@@ -6,9 +6,9 @@
 
 
 # :dart: Repository Contents
+* [Piscine](Piscine/):ballot_box_with_check:
 * [Cursus](Cursus/)
   * [Libft](Cursus/Libft):black_square_button:
-* [Piscine](Piscine/):ballot_box_with_check:
 ###### Legend
 :black_square_button: Ongoing<br />
 :white_check_mark: Complete<br />
@@ -16,6 +16,12 @@
 
 # 📌 Overview
 Repository with my work on 42 programming school. 
+
+# Projects Summary
+
+## Piscine
+
+## Cursus/Libft
 
 Each project includes a PDF with the **subject**, which explains the objectives, restrictions and instructions to complete each one of them; along with a **Readme** file summarizing brief instructions on how it works, starting and completion dates (if any) and the current status or grade achived.
 ###### About 42
