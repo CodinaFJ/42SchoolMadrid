@@ -49,6 +49,7 @@ Status:
 
 
 ## Cursus/Libft
+![C Badge](https://img.shields.io/badge/-C_coding-53F4FA?style=for-the-badge&labelColor=136C99&logo=C&logoColor=white)
 
 <br>
 <br>
