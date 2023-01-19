@@ -20,7 +20,7 @@ Repository with my work on 42 programming school.
 Each project includes a PDF with the **subject**, which explains the objectives, restrictions and instructions to complete each one of them; along with a **Readme** file summarizing brief instructions on how it works, starting and completion dates (if any) and the current status or grade achived.
 
 # :books:Projects Summary
-
+A brief words about each project and its status.
 ## :swimmer:Piscine
 Projects done within 42 Pisnice: selection process of 26 days where candidates work on several exercices about C and Unix.<br />
 Since it is no longer in the scope of the cursus, these projects have been closed for modification.<br />
