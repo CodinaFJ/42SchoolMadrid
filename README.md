@@ -33,14 +33,14 @@ Status:
 - C04:white_check_mark:
 - C05:white_check_mark:
 - C06:white_check_mark:
-- C07
+- C07:ballot_box_with_check:
 - C08:white_check_mark:
-- C09
-- C10
+- C09:ballot_box_with_check:
+- C10:ballot_box_with_check:
 - Rush00:white_check_mark:
-- Rush01
-- Rush02
-- BSQ
+- Rush01:ballot_box_with_check:
+- Rush02:ballot_box_with_check:
+- BSQ:ballot_box_with_check:
 
 
 ## Cursus/Libft
