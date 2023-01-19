@@ -29,9 +29,9 @@ A brief words about each project and its status.
 Projects done within 42 Piscine: selection process of 26 days where candidates work on several exercices about C and Unix.<br />
 Since it is no longer in the scope of the cursus, these projects have been closed for modification.<br />
 Status:
-- Shell00:white_check_mark:
-- Shell01:white_check_mark:
-- C00:white_check_mark:
+- [Shell00](Piscine/Shell00):white_check_mark:
+- [Shell01](Piscine/Shell01):white_check_mark:
+- [C00](Piscine/C00):white_check_mark:
 - C01:white_check_mark:
 - C02:white_check_mark:
 - C03:white_check_mark:
