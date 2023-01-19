@@ -1,6 +1,6 @@
 # 42 School Madrid 
-![42 Logo](Resources/42_Logo.png)
 <img src="Resources/42_Logo.png" alt="42 Logo" width="200"/>
+
 All ongoing and finished projects in 42
 
 Finished projects:
