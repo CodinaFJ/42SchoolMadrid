@@ -5,12 +5,12 @@
 
 
 
-## Projects Contents
+## :dart: Projects Contents
 * [Cursus](Cursus/)
-  * [Libft](Cursus/Libft):wrench:
+  * [Libft](Cursus/Libft):hammer:
 * [Piscine](Piscine/):ballot_box_with_check:
 ###### Legend
-:wrench: Ongoing
+:hammer: Ongoing
 :white_check_mark: Complete
 :ballot_box_with_check: Closed but incomplete
 
