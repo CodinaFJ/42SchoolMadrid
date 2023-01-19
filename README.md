@@ -33,7 +33,7 @@ This project is about understanding how C stardard functions work,
 implementing and learning to use them by creating my own library. It is
 helpful since it is used in next C school assignments.
 
-Disclaimer: with time this library might be expanded. Therefore there might be some more functions than the ones stated in the subject.
+_Disclaimer: with time this library might be expanded. Therefore there might be some more functions than the ones stated in the subject._
 
 ## :swimmer::ballot_box_with_check:Piscine
 
