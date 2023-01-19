@@ -24,7 +24,7 @@ A brief words about each project and its status.
 ## :swimmer:Piscine
 
 ![Unix Badge](https://img.shields.io/badge/-UNIX-lightgrey?style=for-the-badge&labelColor=black&logo=linux&logoColor=white)
-![C Badge](https://img.shields.io/badge/-C_coding-136C99?style=for-the-badge&labelColor=53F4FA&logo=C&logoColor=black)
+![C Badge](https://img.shields.io/badge/-C_coding-53F4FA?style=for-the-badge&labelColor=136C99&logo=C&logoColor=white)
 
 Projects done within 42 Pisnice: selection process of 26 days where candidates work on several exercices about C and Unix.<br />
 Since it is no longer in the scope of the cursus, these projects have been closed for modification.<br />
