@@ -21,6 +21,27 @@ Each project includes a PDF with the **subject**, which explains the objectives,
 # Projects Summary
 
 ## Piscine
+Projects done within 42 Pisnice: selection process of 26 days where condidates work on several exercices about C and Unix.
+Since it is no longer in the scope of the cursus, these projects have been closed for modification.
+Status:
+- Shell00
+- Shell01
+- C00
+- C01
+- C02
+- C03
+- C04
+- C05
+- C06
+- C07
+- C08
+- C09
+- C10
+- Rush00
+- Rush01
+- Rush02
+- BSQ
+
 
 ## Cursus/Libft
 
