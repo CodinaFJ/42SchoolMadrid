@@ -1,6 +1,6 @@
 # <h1 align="center">42 SCHOOL MADRID</h1>
 <p align="center">
- **User: jcodina-**<br>
+ <strong>User: jcodina-</strong><br>
 <a href="https://www.42madrid.com/"><img src="Resources/42_Logo.png" alt="42 Logo" width="100"  class="centerImage"/></a>
 </p>
 
