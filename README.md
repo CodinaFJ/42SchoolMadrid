@@ -10,7 +10,7 @@
 
 ## Overview
 
-## About 42
+###### About 42
 42 is a future-proof computer science training to educate the next generation of software engineers. The 42 program takes a project-based approach to progress and is designed to develop technical and people skills that match the expectations of the labor market.
 
 <a href="https://42.fr/en/homepage/">More about 42</a>
