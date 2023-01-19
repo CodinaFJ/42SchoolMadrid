@@ -105,30 +105,30 @@ char	**ft_split(char *str, char *charset)
 	return (strs);
 }
 
-void	ft_putstr(char *str)
-{
-	int		i;
+// void	ft_putstr(char *str)
+// {
+// 	int		i;
 
-	i = 0;
-	while (*(str + i) != 0)
-		i++;
-	write(1, str, i);
-}
+// 	i = 0;
+// 	while (*(str + i) != 0)
+// 		i++;
+// 	write(1, str, i);
+// }
 
-int	main(int argc, char **argv)
-{
-	(void) argc;
-	(void) argv;
-	int i;
-	char **strs;
+// int	main(int argc, char **argv)
+// {
+// 	(void) argc;
+// 	(void) argv;
+// 	int i;
+// 	char **strs;
 
-	strs = ft_split(argv[1], argv[2]);
-	i = 0;
-	while(*strs != NULL)
-	{
-		ft_putstr(*strs);
-		ft_putstr("\n");
-		strs++;
-	}
-	return (0);
-}
+// 	strs = ft_split(argv[1], argv[2]);
+// 	i = 0;
+// 	while(*strs != NULL)
+// 	{
+// 		ft_putstr(*strs);
+// 		ft_putstr("\n");
+// 		strs++;
+// 	}
+// 	return (0);
+// }

@@ -18,10 +18,10 @@ int	*ft_range(int min, int max)
 {
 	int	*p;
 	int	i;
- 
+
 	i = 0;
 	if (min > max)
-		return (0x0);
+		return (NULL);
 	p = malloc((max - min) * sizeof(int));
 	while (i < max - min)
 	{
@@ -31,7 +31,7 @@ int	*ft_range(int min, int max)
 	return (p);
 }
 
-int main(int argc, char **argv)
+/*int main(int argc, char **argv)
 {
     int *p;
 
@@ -42,4 +42,4 @@ int main(int argc, char **argv)
         printf("%d, ", p[i]);
     }
     return (0);
-}
+}*/

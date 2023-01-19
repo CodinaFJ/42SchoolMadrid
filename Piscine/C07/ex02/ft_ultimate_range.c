@@ -12,6 +12,7 @@
 
 #include<unistd.h>
 #include<stdlib.h>
+#include<stdio.h>
 
 int	*ft_range(int min, int max)
 {
@@ -32,16 +33,22 @@ int	*ft_range(int min, int max)
 
 int	ft_ultimate_range(int **range, int min, int max)
 {
-	int	i;
 	int	size;
 
 	size = max - min;
-	i = 0;
-	if (min > max)
-	{
-		range = NULL;
-		return (0);
-	}
 	*range = ft_range(min, max);
 	return (size);
 }
+
+// int main(int argc, char **argv)
+// {
+//     int *p;
+
+//     p = ft_range(atoi(argv[1]), atoi(argv[2]));
+// 	(void) argc;
+//     for(int i = 0; i < (atoi(argv[2]) - atoi(argv[1])); i++)
+//     {
+//         printf("%d, ", p[i]);
+//     }
+//     return (0);
+// }

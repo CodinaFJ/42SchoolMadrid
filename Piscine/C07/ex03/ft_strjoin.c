@@ -27,12 +27,14 @@ int	ft_strlen(char *str)
 int	ft_get_size(int size, char **strs, char *sep)
 {
 	int	size_total;
+	int	i;
 
 	size_total = 0;
-	while (*strs)
+	i = 0;
+	while (i < size)
 	{
-		size_total += ft_strlen(*strs);
-		strs++;
+		size_total += ft_strlen(strs[i]);
+		i++;
 	}
 	size_total += (size - 1) * ft_strlen(sep);
 	return (size_total);
@@ -60,23 +62,28 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 {
 	char	*str;
 	int		i;
+	int		total_size;
 
 	i = 0;
+	total_size = ft_get_size(size, strs, sep) + 1;
 	if (size == 0)
 		return (malloc(0 * sizeof(char)));
-	str = malloc(ft_get_size(size, strs, sep) * sizeof(char));
-	while (*strs != 0)
+	str = malloc(total_size * sizeof(char));
+	if (str == NULL)
+		return (0);
+	while (i < size)
 	{
-		ft_strcat(str, *strs);
-		strs++;
-		if (*strs != 0)
+		ft_strcat(str, strs[i]);
+		i++;
+		if (i < size)
 			ft_strcat(str, sep);
 	}
+	str[total_size] = '\0';
 	return (str);
 }
 
-int	main(int argc, char **argv)
-{
-	printf("%s\n", ft_strjoin(argc, argv, "||"));
-	return (0);
-}
+// int	main(int argc, char **argv)
+// {
+// 	printf("%s\n", ft_strjoin(argc, argv, "||"));
+// 	return (0);
+// }
