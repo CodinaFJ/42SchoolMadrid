@@ -4,6 +4,10 @@
 <a href="https://www.42madrid.com/"><img src="Resources/42_Logo.png" alt="42 Logo" width="100"  class="centerImage"/></a>
 </p>
 
+###### About 42
+42 is a future-proof computer science training to educate the next generation of software engineers. The 42 program takes a project-based approach to progress and is designed to develop technical and people skills that match the expectations of the labor market.
+
+<a href="https://42.fr/en/homepage/">More about 42</a>
 
 
 # :dart:Repository Contents
@@ -61,7 +65,4 @@ Disclaimer: with time this library might be expanded. Therefore there might be s
 <br>
 <br>
 
-###### About 42
-42 is a future-proof computer science training to educate the next generation of software engineers. The 42 program takes a project-based approach to progress and is designed to develop technical and people skills that match the expectations of the labor market.
 
-<a href="https://42.fr/en/homepage/">More about 42</a>
