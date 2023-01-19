@@ -12,7 +12,7 @@
 ###### Legend
 :hammer: Ongoing
 :white_check_mark: Complete
-:ballot_box_with_check: Closed but incomplete
+:ballot_box_with_check: Closed
 
 # 📌 Overview
 Repository with my work on 42 programming school. 
