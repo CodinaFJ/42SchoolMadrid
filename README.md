@@ -1,5 +1,7 @@
 # <h1 align="center">42 SCHOOL MADRID</h1>
-<center><img src="Resources/42_Logo.png" alt="42 Logo" width="100"  class="centerImage"/></center>
+<p align="center">
+<img src="Resources/42_Logo.png" alt="42 Logo" width="100"  class="centerImage"/>
+</p>
 
 
 
