@@ -17,7 +17,7 @@
 ## 📌 Overview
 Repository with my work on 42 programming school. 
 
-Each project includes a PDF with the subject, which explains the objectives, restrictions and instructions to complete each one of them; along with a Readme file summarizing brief instructions on how it works, starting and completion dates (if any) and the current status or grade achived.
+Each project includes a PDF with the **subject**, which explains the objectives, restrictions and instructions to complete each one of them; along with a **Readme** file summarizing brief instructions on how it works, starting and completion dates (if any) and the current status or grade achived.
 ###### About 42
 42 is a future-proof computer science training to educate the next generation of software engineers. The 42 program takes a project-based approach to progress and is designed to develop technical and people skills that match the expectations of the labor market.
 
