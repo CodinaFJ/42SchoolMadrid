@@ -51,6 +51,12 @@ Status:
 ## :black_square_button: Cursus/Libft
 [![C Badge](https://img.shields.io/badge/-C_coding-53F4FA?style=for-the-badge&labelColor=136C99&logo=C&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
 
+This project is about understanding the C stardard functions work,
+implementing and learning to use them, by creating my own library. It will be
+helpful since it will be used it in next C school assignments.
+
+Disclaimer: with time this library might be expanded. Therefore there might be some more functions than the ones stated in the subject.
+
 <br>
 <br>
 <br>
