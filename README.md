@@ -9,9 +9,7 @@
 * [Piscine](Piscine/):ballot_box_with_check:
 ###### Legend
 :wrench: Ongoing
-
 :white_check_mark: Complete
-
 :ballot_box_with_check: Closed but incomplete
 
 ## Overview
