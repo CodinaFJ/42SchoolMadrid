@@ -10,8 +10,8 @@
   * [Libft](Cursus/Libft):hammer:
 * [Piscine](Piscine/):ballot_box_with_check:
 ###### Legend
-:hammer: Ongoing/n
-:white_check_mark: Complete
+:hammer: Ongoing<br />
+:white_check_mark: Complete<br />
 :ballot_box_with_check: Closed
 
 # 📌 Overview
