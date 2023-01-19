@@ -4,7 +4,7 @@
 
 
 ## Projects Contents
-* [Cursus Projects](Cursus/)
+* [Cursus](Cursus/)
   * [Libft](Cursus/Libft):wrench:
 * [Piscine](Piscine/):ballot_box_with_check:
 ###### Legend
