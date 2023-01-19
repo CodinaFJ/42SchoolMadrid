@@ -1,5 +1,5 @@
 # 42 School Madrid 
-![42 Logo](Resources/42_Logo.png){:width="100px"}.
+![42 Logo](Resources/42_Logo.png){:width="20px"}.
 All ongoing and finished projects in 42
 
 Finished projects:
