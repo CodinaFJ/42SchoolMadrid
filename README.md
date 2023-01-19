@@ -32,20 +32,20 @@ Status:
 - [Shell00](Piscine/Shell00):white_check_mark:
 - [Shell01](Piscine/Shell01):white_check_mark:
 - [C00](Piscine/C00):white_check_mark:
-- C01:white_check_mark:
-- C02:white_check_mark:
-- C03:white_check_mark:
-- C04:white_check_mark:
-- C05:white_check_mark:
-- C06:white_check_mark:
-- C07:ballot_box_with_check:
-- C08:white_check_mark:
-- C09:ballot_box_with_check:
-- C10:ballot_box_with_check:
-- Rush00:white_check_mark:
-- Rush01:ballot_box_with_check:
-- Rush02:ballot_box_with_check:
-- BSQ:ballot_box_with_check:
+- [C01](Piscine/C01):white_check_mark:
+- [C02](Piscine/C02):white_check_mark:
+- [C03](Piscine/C03):white_check_mark:
+- [C04](Piscine/C04):white_check_mark:
+- [C05](Piscine/C05):white_check_mark:
+- [C06](Piscine/C06):white_check_mark:
+- [C07](Piscine/C07):ballot_box_with_check:
+- [C08](Piscine/C08):white_check_mark:
+- [C09](Piscine/C09):ballot_box_with_check:
+- [C10](Piscine/C10):ballot_box_with_check:
+- [Rush00](Piscine/Rush00):white_check_mark:
+- [Rush01](Piscine/Rush01):ballot_box_with_check:
+- [Rush02](Piscine/Rush02):ballot_box_with_check:
+- [BSQ](Piscine/BSQ):ballot_box_with_check:
 
 
 ## Cursus/Libft
