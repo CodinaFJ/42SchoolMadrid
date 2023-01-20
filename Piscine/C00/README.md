@@ -1,6 +1,6 @@
 # <h1 align="center"> :white_check_mark: C00</h1>
 <p align="center">
-The aim of this project is to find the biggest square on a map, avoiding the obstacles.<br>
+Basic output functions.<br>
 <a href="../Resources/Subjects/en.subject_C00.pdf">Subject</a>
 </p>
 
