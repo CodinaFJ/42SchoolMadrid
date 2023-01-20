@@ -12,8 +12,8 @@
 
 # :dart:Repository Contents
 * [Cursus](Cursus/)
-  * [Libft](Cursus/Libft):red_square:
-* [Piscine](Piscine/):ballot_box_with_check:
+  * [Libft](Cursus/Libft):black_square_button:
+* [Piscine](Piscine/):red_square:
 ###### Legend
 :black_square_button: _Ongoing_<br />
 :red_square: _Closed_<br />
