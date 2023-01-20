@@ -3,7 +3,7 @@
 The aim of this project is to find the biggest square on a map, avoiudung the obstacles.
 </p>
 
-# <h1 align="center"> Evaluation BSQ</h1>
+# <h1 align="center"> Evaluation</h1>
 <p align="center">
-<a><img src="Resources/evaluation.png" alt="evaluation" width="100"  class="centerImage"/></a>
+<a><img src="resources/evaluation.png" alt="evaluation" width="100"  class="centerImage"/></a>
 </p>
