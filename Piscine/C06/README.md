@@ -9,3 +9,12 @@ Introduction to arguments of main.<br>
 <a><img src="../Resources/Evals/grade_C06.png" alt="evaluation2" class="centerImage"/></a><br />
 <a><img src="../Resources/Evals/grades_C06.png" alt="evaluation" width=1000 class="centerImage"/></a><br />
 </p>
+
+<br>
+<br>
+<br>
+
+###### Legend
+:black_square_button: _Ongoing_<br />
+:ballot_box_with_check: _Closed_<br />
+:white_check_mark: _Complete_<br />
