@@ -7,4 +7,7 @@ The aim of this project is to find the biggest square on a map, avoiding the obs
 <p align="center">
 <a><img src="resources/evaluation.png" alt="evaluation" width="100"  class="centerImage"/></a>
 </p>
+<p align="center">
+<a><img src="resources/evaluation.png" alt="evaluation2" class="centerImage"/></a>
+</p>
 
