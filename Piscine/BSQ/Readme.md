@@ -9,3 +9,12 @@ The aim of this project is to find the biggest square on a map, avoiding the obs
 <a><img src="resources/evaluation.png" alt="evaluation" class="centerImage"/></a><br />
 Basic tests KO because we failed to introduce a new line between each solution given.
 </p>
+
+<br>
+<br>
+<br>
+
+###### Legend
+:black_square_button: _Ongoing_<br />
+:ballot_box_with_check: _Closed_<br />
+:white_check_mark: _Complete_<br />
