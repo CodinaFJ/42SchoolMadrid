@@ -11,3 +11,12 @@ For one month, the Piscine at 42 lets you tackle the teaching methods of the sch
 <a><img src="Resources/piscine01.png" alt="evaluation" class="centerImage"/></a><br />
   <a><img src="Resources/piscine02.png" alt="evaluation" class="centerImage"/></a><br />
 </p>
+
+<br>
+<br>
+<br>
+
+###### Legend
+:black_square_button: _Ongoing_<br />
+:ballot_box_with_check: _Closed_<br />
+:white_check_mark: _Complete_<br />
