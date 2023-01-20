@@ -1,7 +1,7 @@
-# <h1 align="center"> :ballot_box_with_check: C00</h1>
+# <h1 align="center"> :white_check_mark: C00</h1>
 <p align="center">
 The aim of this project is to find the biggest square on a map, avoiding the obstacles.<br>
-![Subject](../Resources/Subjects/en.subject_C00.pdf)
+[Subject](../Resources/Subjects/en.subject_C00.pdf)
 </p>
 
 # <h2 align="center"> Evaluation </h1>
