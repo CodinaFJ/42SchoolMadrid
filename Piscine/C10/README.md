@@ -1,4 +1,5 @@
 # <h1 align="center"> :ballot_box_with_check: C10</h1>
+<p align="center">
 Pointers to functions.<br>
 <a href="../Resources/Subjects/en.subject_C08.pdf">Subject</a>
 </p>
