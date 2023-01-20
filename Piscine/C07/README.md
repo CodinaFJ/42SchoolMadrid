@@ -13,6 +13,7 @@ Basic output functions.<br>
 <br>
 <br>
 <br>
+
 ###### Legend
 :black_square_button: _Ongoing_<br />
 :ballot_box_with_check: _Closed_<br />
