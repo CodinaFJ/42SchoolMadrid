@@ -1,6 +1,6 @@
 # <h1 align="center"> :ballot_box_with_check: Rush01</h1>
 <p align="center">
- Display (on-screen) a rectangle of x characters for width, and y characters for length.<br>
+Build a solver for Skyscrapers puzzles.<br>
 <a href="../Resources/Subjects/en.subject_rush01.pdf">Subject</a>
 </p>
 
