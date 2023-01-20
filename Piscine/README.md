@@ -1,6 +1,7 @@
 # <h1 align="center"> :ballot_box_with_check: PISCINE</h1>
 <p align="center">
 For one month, the Piscine at 42 lets you tackle the teaching methods of the school: peer-to-peer learning, group work, peer-evaluation and project pedagogy
+  01/11/2022 - 26/11/2022
 </p>
 
 # <h2 align="center"> Evaluation </h2>
@@ -11,4 +12,3 @@ For one month, the Piscine at 42 lets you tackle the teaching methods of the sch
 </p>
 
 # <h2 align="center"> Dates </h2>
-01 September 2022 - 26 September 2022
