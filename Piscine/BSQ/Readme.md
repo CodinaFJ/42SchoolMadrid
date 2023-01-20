@@ -8,6 +8,6 @@ The aim of this project is to find the biggest square on a map, avoiding the obs
 <a><img src="resources/evaluation.png" alt="evaluation" class="centerImage"/></a>
 </p>
 <p align="center">
-<a><img src="resources/evaluation2.png" alt="evaluation2" class="centerImage"/></a>
+<a><img src="resources/evaluation2.png" alt="evaluation2" width=400 class="centerImage"/></a>
 </p>
 
