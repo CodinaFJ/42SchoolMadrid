@@ -1,6 +1,6 @@
-# <h1 align="center"> :ballot_box_with_check: BSQ</h1>
+# <h1 align="center"> :ballot_box_with_check: PISCINE</h1>
 <p align="center">
-The aim of this project is to find the biggest square on a map, avoiding the obstacles.
+For one month, the Piscine at 42 lets you tackle the teaching methods of the school: peer-to-peer learning, group work, peer-evaluation and project pedagogy
 </p>
 
 # <h2 align="center"> Evaluation </h1>
