@@ -5,8 +5,8 @@ For one month, the Piscine at 42 lets you tackle the teaching methods of the sch
 
 # <h2 align="center"> Evaluation </h1>
 <p align="center">
-<a><img src="resources/level.png" alt="level" class="centerImage"/></a><br />
-<a><img src="resources/piscine01.png" alt="evaluation" class="centerImage"/></a><br />
-  <a><img src="resources/piscine02.png" alt="evaluation" class="centerImage"/></a><br />
+<a><img src="Resources/level.png" alt="level" class="centerImage"/></a><br />
+<a><img src="Resources/piscine01.png" alt="evaluation" class="centerImage"/></a><br />
+  <a><img src="Resources/piscine02.png" alt="evaluation" class="centerImage"/></a><br />
 Basic tests KO because we failed to introduce a new line between each solution given.
 </p>
