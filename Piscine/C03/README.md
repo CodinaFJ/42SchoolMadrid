@@ -1,6 +1,6 @@
 # <h1 align="center"> :white_check_mark: C03</h1>
 <p align="center">
-Basic output functions.<br>
+Characters and strings functions.<br>
 <a href="../Resources/Subjects/en.subject_C03.pdf">Subject</a>
 </p>
 
