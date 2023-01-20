@@ -12,11 +12,11 @@
 
 # :dart:Repository Contents
 * [Cursus](Cursus/)
-  * [Libft](Cursus/Libft):black_square_button:
+  * [Libft](Cursus/Libft):red_square:
 * [Piscine](Piscine/):ballot_box_with_check:
 ###### Legend
 :black_square_button: _Ongoing_<br />
-:ballot_box_with_check: _Closed_<br />
+:red_square: _Closed_<br />
 :white_check_mark: _Complete_<br />
 
 # 📌 Overview
