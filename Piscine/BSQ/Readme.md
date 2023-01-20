@@ -1,6 +1,6 @@
 # <h1 align="center"> :ballot_box_with_check: BSQ</h1>
 <p align="center">
-The aim of this project is to find the biggest square on a map, avoiudung the obstacles.
+The aim of this project is to find the biggest square on a map, avoiding the obstacles.
 </p>
 
 # <h1 align="center"> Evaluation</h1>
