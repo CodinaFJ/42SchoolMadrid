@@ -1,6 +1,6 @@
 # <h1 align="center"> :white_check_mark: Rush00</h1>
 <p align="center">
- display (on-screen) a rectangle of _x_ characters for width, and _y_ characters for length.<br>
+ Display (on-screen) a rectangle of x characters for width, and y characters for length.<br>
 <a href="../Resources/Subjects/en.subject_rush00.pdf">Subject</a>
 </p>
 
