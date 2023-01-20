@@ -1,6 +1,6 @@
 # <h1 align="center"> :ballot_box_with_check: C07</h1>
 <p align="center">
-Basic output functions.<br>
+Dynamic memory allocation.<br>
 <a href="../Resources/Subjects/en.subject_C07.pdf">Subject</a>
 </p>
 
