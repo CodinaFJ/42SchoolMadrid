@@ -2,7 +2,7 @@
 <p align="center">
 The aim of this project is to find the biggest square on a map, avoiding the obstacles.<br>
 [gfcj](https://github.com/CodinaFJ/42SchoolMadrid/blob/main/Piscine/Resources/Subjects/en.subject_C00.pdf)
-  * [Cursus](Cursus/)
+  * [Cursus](../../Cursus/)
 </p>
 
 # <h2 align="center"> Evaluation </h1>
