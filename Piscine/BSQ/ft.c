@@ -69,6 +69,7 @@ void	ft_putnbr_blnk(int nb)
 	int		index;
 	int		neg;
 
+	(void) number;
 	index = 0;
 	neg = 1;
 	if (nb < 0)
@@ -107,7 +108,7 @@ int	ft_atoi_n(char *str, int n)
 
 int	ft_char_printable(char c)
 {
-	if (c < 32 || c > 127)
+	if (c < 32)
 		return (-1);
 	return (0);
 }

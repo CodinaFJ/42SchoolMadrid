@@ -11,7 +11,12 @@
 /* ************************************************************************** */
 #ifndef FT_H
 # define FT_H
+# ifdef linux
 # include <unistd.h>
+# endif
+# ifdef _WIN32
+# include <io.h>
+# endif
 
 void	ft_putstr(char *str);
 int		ft_strlen(char *str);
