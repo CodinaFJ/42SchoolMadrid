@@ -1,4 +1,4 @@
-# <h1 align="center"> :ballot_box_with_check C09</h1>
+# <h1 align="center"> :ballot_box_with_check: C09</h1>
 <p align="center">
 Basic output functions.<br>
 <a href="../Resources/Subjects/en.subject_C09.pdf">Subject</a>
