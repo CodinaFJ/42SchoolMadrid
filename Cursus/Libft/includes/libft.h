@@ -27,12 +27,12 @@ typedef struct s_list
 
 void	*ft_calloc(size_t count, size_t size);
 
-//Input & Output on Streams
+//Arithmetic Functions
 
-void	ft_putendl_fd(char *s, int fd);
-void	ft_putchar_fd(char c, int fd);
-void	ft_putnbr_fd(int nb, int fd);
-void	ft_putstr_fd(char *s, int fd);
+int		ft_atoi(const char *nptr);
+char	*ft_itoa(const int n);
+size_t	ft_maxs(size_t n1, size_t n2);
+size_t	ft_mins(size_t n1, size_t n2);
 
 //Character Handling
 
@@ -48,6 +48,13 @@ int		ft_isspace(int c);
 int		ft_isupper(int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+
+//Input & Output on Streams
+
+void	ft_putchar_fd(char c, int fd);
+void	ft_putendl_fd(char *s, int fd);
+void	ft_putnbr_fd(int nb, int fd);
+void	ft_putstr_fd(char *s, int fd);
 
 //Search Functions
 
@@ -90,13 +97,6 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 void	*prot_malloc(void *s);
 void	*free_darray(void **strs, int n);
-
-//Arithmetic Functions
-
-int		ft_atoi(const char *nptr);
-char	*ft_itoa(const int n);
-size_t	ft_maxs(size_t n1, size_t n2);
-size_t	ft_mins(size_t n1, size_t n2);
 
 //List manipulation
 
