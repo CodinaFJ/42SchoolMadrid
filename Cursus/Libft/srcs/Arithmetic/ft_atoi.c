@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/12 17:04:37 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/12 17:04:39 by jcodina-         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:22:48 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 /**
  * Converts the initial portion of the string pointed to by str 
  * to int. Spaces at the beginning of string are ignored.

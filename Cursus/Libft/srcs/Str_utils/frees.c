@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   frees.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:22:16 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/16 20:22:21 by jcodina-         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:23:24 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../../includes/libft.h"
 /**
  * Used to protect memory space s from allocation error.
  * @return NULL if s == NULL, after freeing the allocated space for s.

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 15:15:12 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/16 15:15:13 by jcodina-         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:22:08 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 int static	get_size_strs(char const *str, char c)
 {
@@ -30,8 +30,10 @@ int static	get_size_strs(char const *str, char c)
 		else
 			i++;
 	}
-	if (c == 0)
+	if (c == 0 || (size == 0 && !ft_strchr(str, c)))
 		return (1);
+	else if (size == 0)
+		return (0);
 	return (size);
 }
 
@@ -46,6 +48,8 @@ char static	*get_split_word(char const *str, char c)
 	while (str[wrd_len] != c && str[wrd_len])
 		wrd_len++;
 	res = (char *)malloc((wrd_len + 1) * sizeof(char));
+	if (res == NULL)
+		return (prot_malloc(res));
 	ft_strlcpy(res, str, wrd_len + 1);
 	return (res);
 }
@@ -58,14 +62,20 @@ char static	**protect_input(char const *str, char c)
 	if (*str == '\0')
 	{
 		strs = malloc(sizeof(char *));
+		if (!strs)
+			return (prot_malloc(strs));
 		strs[0] = NULL;
 		return (strs);
 	}
 	else if (c == '\0')
 	{
 		strs = malloc(sizeof(char *) * 2);
+		if (!strs)
+			return (prot_malloc(strs));
 		str_len = ft_strlen(str);
 		strs[0] = malloc(str_len + 1);
+		if (!strs[0])
+			return (free_darray((void **)strs, 1));
 		ft_strlcpy(strs[0], str, str_len + 1);
 		strs[1] = NULL;
 		return (strs);

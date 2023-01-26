@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 16:10:50 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/10 16:10:51 by jcodina-         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:23:19 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 /**
  * Locates the first occurrence (in no more than len bytes of haystack)
  * of the null-terminated string needle in the null-terminated string haystack.
