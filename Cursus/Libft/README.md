@@ -1,4 +1,4 @@
-# <h1 align="center"> :black_square_button: Libft</h1>
+# <h1 align="center"> :ballot_box_with_check: Libft</h1>
 <p align="center">
 Your first own library<br />
 <br>
