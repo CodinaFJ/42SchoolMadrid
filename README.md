@@ -38,6 +38,8 @@ _Disclaimer: with time this library might be expanded. Therefore there might be 
 
 ## :swimmer::ballot_box_with_check:Piscine
 
+<a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/clegzsnmy00060fmhidr7ixj4/stats?cursusId=9&coalitionId=piscine" alt="jcodina-'s 42 stats" /></a>
+
 [![Unix Badge](https://img.shields.io/badge/-UNIX-ebebeb?style=for-the-badge&labelColor=black&logo=linux&logoColor=white)](https://es.wikipedia.org/wiki/Unix)
 [![C Badge](https://img.shields.io/badge/-C_code-93BDFF?style=for-the-badge&labelColor=374760&logo=C&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
 
