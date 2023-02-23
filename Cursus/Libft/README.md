@@ -9,11 +9,6 @@ The aim of this project is to code a C library regrouping usual functions that y
 <a href="es.subject.libft.pdf">Subject</a>
 </p>
 
-# <h2 align="center"> Evaluation </h1>
-<p align="center">
-Not evaluated
-</p>
-
 # <h2 align="center"> Status </h1>
 
 - :white_check_mark: Basic Functions
