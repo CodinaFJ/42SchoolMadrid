@@ -1,5 +1,6 @@
-# <h1 align="center"> :ballot_box_with_check: Libft</h1>
+# <h1 align="center"> :white_check_mark: Libft</h1>
 <p align="center">
+<a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/clegzsnmy00060fmhidr7ixj4/project/2930162" alt="jcodina-'s 42 Libft Score" /></a><br>
 Your first own library<br />
 <br>
 The aim of this project is to code a C library regrouping usual functions that you’ll be allowed to use in all your other projects.<br>
