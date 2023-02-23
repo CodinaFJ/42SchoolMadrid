@@ -19,7 +19,7 @@ Not evaluated
 - :white_check_mark: Basic Functions
 - :white_check_mark: Advanced Functions
 - :white_check_mark: Bonus
-- :black_square_button: Evaluation 0/3
+- :white_check_mark: Evaluation 0/3
 
 <br>
 <br>
