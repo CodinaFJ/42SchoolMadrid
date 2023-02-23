@@ -27,8 +27,7 @@ Each project includes a PDF with the **subject**, which explains the objectives,
 # :books:Projects Summary
 A brief words about each project and its status.
 
-## :black_square_button: [Cursus/Libft](Cursus/Libft)<p align="right"><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/clegzsnmy00060fmhidr7ixj4/project/2930162" alt="jcodina-'s 42 Libft Score" align="right"/></a>
- </p>
+## :black_square_button: [Cursus/Libft](Cursus/Libft)<a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/clegzsnmy00060fmhidr7ixj4/project/2930162" alt="jcodina-'s 42 Libft Score" align="right"/></a>
 [![C Badge](https://img.shields.io/badge/-C_code-93BDFF?style=for-the-badge&labelColor=374760&logo=C&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
 
 This project is about understanding how C stardard functions work,
