@@ -1,7 +1,6 @@
 # <h1 align="center">42 SCHOOL MADRID</h1>
 <p align="center">
 <a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/clegzsnmy00060fmhidr7ixj4/stats?cursusId=21&coalitionId=66" alt="jcodina-'s 42 stats" /></a><br>
-<strong>User: jcodina-</strong><br>
 <a href="https://www.42madrid.com/"><img src="Resources/42_Logo.png" alt="42 Logo" width="100"  class="centerImage"/></a>
 </p>
 
