@@ -13,7 +13,7 @@
 
 # :dart:Repository Contents
 * [Cursus](Cursus/)
-  * [Libft](Cursus/Libft):black_square_button:
+  * [Libft](Cursus/Libft)<a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/clegzsnmy00060fmhidr7ixj4/project/2930162" alt="jcodina-'s 42 Libft Score" /></a>
 * [Piscine](Piscine/):ballot_box_with_check:
 ###### Legend
 :black_square_button: _Ongoing_<br />
