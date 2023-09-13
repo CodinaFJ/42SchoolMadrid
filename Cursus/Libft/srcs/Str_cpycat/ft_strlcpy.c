@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 16:22:59 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/10 16:23:01 by jcodina-         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:22:25 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 /**
  * Copies the string src to the string dest.
  * String dest must have enough space to hold the result.

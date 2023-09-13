@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   itoa.c                                             :+:      :+:    :+:   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 19:37:18 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/17 19:37:21 by jcodina-         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:22:49 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../../includes/libft.h"
 
 int static	calc_len(int nbr)
 {
@@ -34,10 +34,7 @@ char static	*cpy_nbr(int nbr, int len, int neg)
 
 	str = malloc((len + 1) * sizeof(char));
 	if (str == NULL)
-	{
-		free(str);
-		return (NULL);
-	}
+		return (prot_malloc(str));
 	i = 0;
 	if (nbr == 0)
 		str[0] = '0';

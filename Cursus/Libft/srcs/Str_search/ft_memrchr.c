@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 11:42:58 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/18 11:43:02 by jcodina-         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:23:16 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 
 /**
  * Locates last occurrence of c in memory area s within n bytes.

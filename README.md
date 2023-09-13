@@ -61,4 +61,3 @@ Status:
 - [Rush02](Piscine/Rush02):ballot_box_with_check:
 - [BSQ](Piscine/BSQ):ballot_box_with_check:
 
-

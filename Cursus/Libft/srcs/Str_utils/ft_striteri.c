@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 20:32:08 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/17 20:32:09 by jcodina-         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:23:25 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../../includes/libft.h"
 /**
  * Applies f function to each character of string s.
  * Function f takes as parameters a pointer to the character that it evaluates

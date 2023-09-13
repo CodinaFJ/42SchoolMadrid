@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 16:30:33 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/10 16:30:34 by jcodina-         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:23:03 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 /**
  * Converts a upper-case letter to the corresponding lower-case letter.
  */

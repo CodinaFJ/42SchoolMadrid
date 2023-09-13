@@ -1,0 +1,4 @@
+*.o
+*.pdf
+.vscode
+.DStore

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 16:08:15 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/10 16:08:17 by jcodina-         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:23:15 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 /**
  * Locates first occurrence of c in memory area s within n bytes.
  * @param s searched memory area.

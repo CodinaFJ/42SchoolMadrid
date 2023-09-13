@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_islower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 16:07:21 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/10 16:07:22 by jcodina-         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:22:58 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../includes/libft.h"
 /**
  * Lowercase alphabetic character test.
 */
