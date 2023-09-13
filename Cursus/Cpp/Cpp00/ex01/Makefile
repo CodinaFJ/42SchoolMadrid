@@ -39,7 +39,10 @@ $(NAME): $(OBJ) $(HDRS)
 %.o: %.cpp $(HDRS)
 	$(CC) $(FLAGS) -c $< -o $@
 
+clean: 
+	rm -rf $(OBJ)
+
 fclean: clean
-	rm $(NAME)
+	rm -rf $(NAME)
 
 re: fclean all
