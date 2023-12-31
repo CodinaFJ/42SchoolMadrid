@@ -15,6 +15,7 @@
  * Adds given new node to the back of given list lst.
  * @param lst Pointer to first node in list where to add the new node.
  * @param new Node to add
+ * @warning t_list **lst needs to be initialized first. In case of empty list please do "lst = NULL" before.
  */
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {

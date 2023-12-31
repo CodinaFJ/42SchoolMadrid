@@ -1,34 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memrchr.c                                       :+:      :+:    :+:   */
+/*   ft_lstadd_front_bonus.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/18 11:42:58 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/26 15:23:16 by jcodina-         ###   ########.fr       */
+/*   Created: 2023/01/18 15:47:07 by jcodina-          #+#    #+#             */
+/*   Updated: 2023/01/26 15:22:46 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/libft.h"
-
 /**
- * Locates last occurrence of c in memory area s within n bytes.
- * @param s searched memory area
- * @param c character to search
- * @param n bytes to cover in the search
- * @return pointer to byte located, or NULL if there is no occurrence
+ * Adds given new node to the front of given list lst.
+ * @param lst Pointer to first node in list where to add the new node.
+ * @param new Node to add
+ * @warning t_list **lst needs to be initialized first. In case of empty list please do "lst = NULL" before.
  */
-void	*ft_memrchr(const void *s, int c, size_t n)
+void	ft_lstadd_front(t_list **lst, t_list *new)
 {
-	size_t	i;
-
-	i = n - 1;
-	while (i >= 0)
-	{
-		if ((*((unsigned char *)s + i)) == (unsigned char)c)
-			return ((void *) s + i);
-		i--;
-	}
-	return (NULL);
+	new->next = *lst;
+	*lst = new;
 }

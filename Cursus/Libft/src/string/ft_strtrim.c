@@ -14,7 +14,7 @@
 /**
  * Calculates indexes that limit the trimmed result to be copied.
  */
-void static	get_trim_indexes(char const *s1, char const *set,
+static void	get_trim_indexes(char const *s1, char const *set,
 	int *i, int *j)
 {
 	if (!*s1)

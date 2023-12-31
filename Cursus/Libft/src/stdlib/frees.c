@@ -12,21 +12,6 @@
 
 #include "../../includes/libft.h"
 /**
- * Used to protect memory space s from allocation error.
- * @return NULL if s == NULL, after freeing the allocated space for s.
- * Otherwise return s.
- */
-void	*prot_malloc(void *s)
-{
-	if (s == NULL)
-	{
-		free(s);
-		return (NULL);
-	}
-	return (s);
-}
-
-/**
  * Used to protect double pointer array p form allocation error.
  * Liberates n arrays in p and p.
  * @param p Double pointer to liberate recursively.

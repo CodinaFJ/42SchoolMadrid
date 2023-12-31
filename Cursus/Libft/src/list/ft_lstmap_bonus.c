@@ -12,7 +12,7 @@
 
 #include "../../includes/libft.h"
 
-void static	*ft_free_lst(t_list *lst, void *content, void (*del)(void *))
+static void	*ft_free_lst(t_list *lst, void *content, void (*del)(void *))
 {
 	del(content);
 	ft_lstclear(&lst, del);

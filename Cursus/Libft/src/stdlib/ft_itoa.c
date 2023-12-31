@@ -12,7 +12,7 @@
 
 #include "../../includes/libft.h"
 
-int static	calc_len(int nbr)
+static int	calc_len(int nbr)
 {
 	int	len;
 
@@ -27,7 +27,7 @@ int static	calc_len(int nbr)
 	return (len);
 }
 
-char static	*cpy_nbr(int nbr, int len, int neg)
+static char	*cpy_nbr(int nbr, int len, int neg)
 {
 	char	*str;
 	int		i;

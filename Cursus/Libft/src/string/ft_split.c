@@ -12,7 +12,7 @@
 
 #include "../../includes/libft.h"
 
-int static	get_size_strs(char const *str, char c)
+static int	get_size_strs(char const *str, char c)
 {
 	int	i;
 	int	size;
@@ -37,13 +37,11 @@ int static	get_size_strs(char const *str, char c)
 	return (size);
 }
 
-char static	*get_split_word(char const *str, char c)
+static char	*get_split_word(char const *str, char c)
 {
-	int		k;
 	int		wrd_len;
 	char	*res;
 
-	k = 0;
 	wrd_len = 0;
 	while (str[wrd_len] != c && str[wrd_len])
 		wrd_len++;
@@ -54,7 +52,7 @@ char static	*get_split_word(char const *str, char c)
 	return (res);
 }
 
-char static	**protect_input(char const *str, char c)
+static char	**protect_input(char const *str, char c)
 {
 	char	**strs;
 	int		str_len;
@@ -83,7 +81,7 @@ char static	**protect_input(char const *str, char c)
 	return (NULL);
 }
 
-char static	**split_loop(char **strs, char const *str, char c)
+static char	**split_loop(char **strs, char const *str, char c)
 {
 	int	i;
 	int	j;

@@ -15,80 +15,94 @@ Directories
 ########################################################################################
 
 HDR_DIR	=	.
-SRC_DIR	=	srcs/
+BIN_DIR =	bin/
+SRC_DIR	=	src/
+CTYPE_DIR =		ctype/
+LIST_DIR =		list/
+MATH_DIR =		math/
+STDIO_DIR =		stdio/
+STDLIB_DIR =	stdlib/
+STRING_DIR =	string/
+
 
 ########################################################################################\
 Sources & objects for Libft
 ########################################################################################
 
-FILES	=	Str_cmp/ft_memcmp \
-			Str_cmp/ft_strcmp \
-			Str_cpycat/ft_bzero \
-			Str_cpycat/ft_memccpy \
-			Str_cpycat/ft_memcpy \
-			Str_cpycat/ft_memmove \
-			Str_cpycat/ft_memset \
-			Str_cpycat/ft_split \
-			Str_cpycat/ft_strcat \
-			Str_cpycat/ft_strcpy \
-			Str_cpycat/ft_strdup \
-			Str_cpycat/ft_strlcat \
-			Str_cpycat/ft_strlcpy \
-			Str_cpycat/ft_strncat \
-			Str_cpycat/ft_strncpy \
-			Str_cpycat/ft_strtrim \
-			Alloc_mem/ft_calloc \
-			Arithmetic/ft_atoi \
-			Arithmetic/ft_itoa \
-			Arithmetic/ft_maxmin \
-			Char_handle/ft_isalnum \
-			Char_handle/ft_isalpha \
-			Char_handle/ft_isascii \
-			Char_handle/ft_isblank \
-			Char_handle/ft_isdigit \
-			Char_handle/ft_islower \
-			Char_handle/ft_isprint \
-			Char_handle/ft_isspace \
-			Char_handle/ft_isupper \
-			Char_handle/ft_tolower \
-			Char_handle/ft_toupper \
-			IO_streams/ft_putchar_fd \
-			IO_streams/ft_putendl_fd \
-			IO_streams/ft_putnbr_fd \
-			IO_streams/ft_putstr_fd \
-			Str_search/ft_memchr \
-			Str_search/ft_memrchr \
-			Str_search/ft_strchr \
-			Str_search/ft_strjoin \
-			Str_search/ft_strncmp \
-			Str_search/ft_strnstr \
-			Str_search/ft_strrchr \
-			Str_search/ft_strstr \
-			Str_search/ft_substr \
-			Str_utils/frees \
-			Str_utils/ft_striteri \
-			Str_utils/ft_strlen \
-			Str_utils/ft_strmapi \
+CTYPE_FILES	=	ft_isalnum	\
+				ft_isalpha	\
+				ft_isascii	\
+				ft_isblank	\
+				ft_isdigit	\
+				ft_islower	\
+				ft_isprint	\
+				ft_isspace	\
+				ft_isupper	\
+				ft_tolower	\
+				ft_toupper	
 
+LIST_FILES =	ft_lstadd_back_bonus	\
+				ft_lstadd_front_bonus	\
+				ft_lstclear_bonus		\
+				ft_lstdelone_bonus		\
+				ft_lstiter_bonus		\
+				ft_lstlast_bonus		\
+				ft_lstmap_bonus			\
+				ft_lstnew_bonus			\
+				ft_lstsize_bonus		\
+
+
+MATH_FILES =	ft_maxmin
+
+STDIO_FILES =	ft_putchar_fd	\
+				ft_putendl_fd	\
+				ft_putnbr_fd	\
+				ft_putstr_fd
+
+STDLIB_FILES =	frees 		\
+				ft_calloc	\
+				ft_atoi		\
+				ft_itoa		
+
+STRING_FILES =	ft_memcmp	\
+				ft_strcmp	\
+				ft_bzero	\
+				ft_memccpy	\
+				ft_memcpy	\
+				ft_memmove	\
+				ft_memset	\
+				ft_split	\
+				ft_strcat	\
+				ft_strcpy	\
+				ft_strdup	\
+				ft_strlcat	\
+				ft_strlcpy	\
+				ft_strncat	\
+				ft_strncpy	\
+				ft_strtrim	\
+				ft_memchr 	\
+				ft_memrchr 	\
+				ft_strchr 	\
+				ft_strjoin 	\
+				ft_strncmp 	\
+				ft_strnstr 	\
+				ft_strrchr 	\
+				ft_strstr 	\
+				ft_substr 	\
+				ft_striteri	\
+				ft_strlen 	\
+				ft_strmapi 	\
+
+
+FILES	=	$(addprefix $(CTYPE_DIR), $(CTYPE_FILES))	\
+			$(addprefix $(LIST_DIR), $(LIST_FILES))		\
+			$(addprefix $(MATH_DIR), $(MATH_FILES))		\
+			$(addprefix $(STDIO_DIR), $(STDIO_FILES))	\
+			$(addprefix $(STDLIB_DIR), $(STDLIB_FILES))	\
+			$(addprefix $(STRING_DIR), $(STRING_FILES))
+		
 SRCS	=	$(addprefix $(SRC_DIR), $(addsuffix .c, $(FILES)))
-OBJS	=	$(addprefix $(SRC_DIR), $(addsuffix .o, $(FILES)))
-			
-########################################################################################\
-Bonus sources and objects for Libft
-########################################################################################
-
-BFILES	=	Bonus/ft_lstadd_back_bonus \
-			Bonus/ft_lstadd_front_bonus \
-			Bonus/ft_lstclear_bonus \
-			Bonus/ft_lstdelone_bonus \
-			Bonus/ft_lstiter_bonus \
-			Bonus/ft_lstlast_bonus \
-			Bonus/ft_lstmap_bonus \
-			Bonus/ft_lstnew_bonus \
-			Bonus/ft_lstsize_bonus \
-
-BSRCS	=	$(addprefix $(SRC_DIR), $(addsuffix .c, $(BFILES)))
-BOBJS	=	$(addprefix $(SRC_DIR), $(addsuffix .o, $(BFILES)))
+OBJS	=	$(addprefix $(BIN_DIR), $(addsuffix .o, $(FILES)))
 
 ########################################################################################\
 Colors
@@ -111,10 +125,10 @@ Rules
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	@$(AR) $(NAME) $(OBJS)
-	@echo "\n$(G)Basic library compiled!$(DEF_COLOR)-> $@\n"
+	@$(AR) $(BIN_DIR)$(NAME) $(OBJS)
+	@echo "\n$(G)Library compiled!$(DEF_COLOR)-> $@\n"
 
-$(SRC_DIR)%.o:$(SRC_DIR)%.c
+$(BIN_DIR)%.o:$(SRC_DIR)%.c
 	@echo "$(Y)Compiling: $< $(DEF_COLOR)"
 	@$(CC) $(CFLAGS) -I $(HDR_DIR) -c $< -o $@
 
