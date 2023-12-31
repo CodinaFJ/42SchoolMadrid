@@ -13,7 +13,7 @@
 #include "../../includes/libft.h"
 /**
  * Append a copy of the string src to the end of the string dest.
- * String s1 must have enough space to hold the result.
+ * String dest must have enough space to hold the result.
  * @param dest string to fill
  * @param src string to append
  * @return pointer to dest

@@ -3,7 +3,7 @@
 #		PROJECT: Libft																	#\
 #########################################################################################
 
-NAME = libft.a
+NAME = $(BIN_DIR)libft.a
 
 CC	= cc
 CFLAGS = -Wall -Wextra -Werror
@@ -14,20 +14,25 @@ RM = rm -rf
 Directories
 ########################################################################################
 
-HDR_DIR	=	.
+HDR_DIR	=	includes/
 BIN_DIR =	bin/
 SRC_DIR	=	src/
+
+ARRAY_DIR =		array/
 CTYPE_DIR =		ctype/
 LIST_DIR =		list/
 MATH_DIR =		math/
 STDIO_DIR =		stdio/
 STDLIB_DIR =	stdlib/
 STRING_DIR =	string/
+STRMTRX_DIR =	strsmatrix/
 
 
 ########################################################################################\
 Sources & objects for Libft
 ########################################################################################
+
+ARRAY_FILES =	ft_arrset
 
 CTYPE_FILES	=	ft_isalnum	\
 				ft_isalpha	\
@@ -52,7 +57,8 @@ LIST_FILES =	ft_lstadd_back_bonus	\
 				ft_lstsize_bonus		\
 
 
-MATH_FILES =	ft_maxmin
+MATH_FILES =	ft_maxmin	\
+				ft_pow
 
 STDIO_FILES =	ft_putchar_fd	\
 				ft_putendl_fd	\
@@ -93,13 +99,25 @@ STRING_FILES =	ft_memcmp	\
 				ft_strlen 	\
 				ft_strmapi 	\
 
+STRSMTRX_FILES =	ft_strs_add_line	\
+					ft_strs_cols		\
+					ft_strs_rows		\
+					ft_strs_clear		\
+					ft_strs_colcmp		\
+					ft_strs_rowcmp		\
+					ft_strschr			\
+					ft_strscpy			\
+					ft_strsdup
 
-FILES	=	$(addprefix $(CTYPE_DIR), $(CTYPE_FILES))	\
-			$(addprefix $(LIST_DIR), $(LIST_FILES))		\
-			$(addprefix $(MATH_DIR), $(MATH_FILES))		\
-			$(addprefix $(STDIO_DIR), $(STDIO_FILES))	\
-			$(addprefix $(STDLIB_DIR), $(STDLIB_FILES))	\
-			$(addprefix $(STRING_DIR), $(STRING_FILES))
+
+FILES	=	$(addprefix $(CTYPE_DIR), $(CTYPE_FILES))		\
+			$(addprefix $(ARRAY_DIR), $(ARRAY_FILES))		\
+			$(addprefix $(LIST_DIR), $(LIST_FILES))			\
+			$(addprefix $(MATH_DIR), $(MATH_FILES))			\
+			$(addprefix $(STDIO_DIR), $(STDIO_FILES))		\
+			$(addprefix $(STDLIB_DIR), $(STDLIB_FILES))		\
+			$(addprefix $(STRING_DIR), $(STRING_FILES))		\
+			$(addprefix $(STRMTRX_DIR), $(STRSMTRX_FILES))
 		
 SRCS	=	$(addprefix $(SRC_DIR), $(addsuffix .c, $(FILES)))
 OBJS	=	$(addprefix $(BIN_DIR), $(addsuffix .o, $(FILES)))
@@ -125,12 +143,12 @@ Rules
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	@$(AR) $(BIN_DIR)$(NAME) $(OBJS)
+	@$(AR) $(NAME) $(OBJS)
 	@echo "\n$(G)Library compiled!$(DEF_COLOR)-> $@\n"
 
 $(BIN_DIR)%.o:$(SRC_DIR)%.c
 	@echo "$(Y)Compiling: $< $(DEF_COLOR)"
-	@$(CC) $(CFLAGS) -I $(HDR_DIR) -c $< -o $@
+	@$(CC) $(CFLAGS) -I$(HDR_DIR) -c $< -o $@
 
 bonus: $(OBJS) $(BOBJS)
 	@$(AR) $(NAME) $(OBJS) $(BOBJS)
