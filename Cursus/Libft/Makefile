@@ -55,6 +55,11 @@ LIST_FILES =	ft_lstadd_back_bonus	\
 				ft_lstmap_bonus			\
 				ft_lstnew_bonus			\
 				ft_lstsize_bonus		\
+				ft_lst_exists			\
+				ft_lst_remove			\
+				ft_lst_remove_at		\
+				ft_lst_removeall		\
+				ft_lst_dup				\
 
 
 MATH_FILES =	ft_maxmin	\

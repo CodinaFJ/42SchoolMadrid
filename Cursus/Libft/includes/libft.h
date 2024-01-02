@@ -62,6 +62,11 @@ t_list			*ft_lstlast(t_list *lst);
 t_list			*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 t_list			*ft_lstnew(void *content);
 int				ft_lstsize(t_list *lst);
+int				ft_lst_exists(t_list *lst, void *content, int (*compare)(void *, void *));
+void			*ft_lst_remove(t_list **lst, void *content, int (*compare)(void *, void *));
+void			*ft_lst_remove_at(t_list **lst, int index);
+void			ft_lst_remove_all(t_list **lst, void *content, int (*compare)(void *, void *), void (*del)(void *));
+t_list			*ft_lst_dup(t_list *lst_src, void *(*dup)(void *));
 
 /*									MATH									*/
 
