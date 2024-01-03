@@ -6,7 +6,7 @@
 /*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 19:37:18 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/26 15:22:49 by jcodina-         ###   ########.fr       */
+/*   Updated: 2024/01/03 09:01:36 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,5 +72,24 @@ char	*ft_itoa(const int n)
 		return (NULL);
 	if (neg == -1)
 		str[0] = '-';
+	return (str);
+}
+
+/**
+ * Converts the unsigned integer n to a string. The result is return in an
+ * allocated string. Negative numbers are managed.
+ * @param n unsigned number to translate to string.
+ * @return Pointer to the allocated string with the result. NULL if allocation
+ * fails
+ */
+char	*ft_uitoa(const unsigned int n)
+{
+	int		len;
+	char	*str;
+
+	len = calc_len((long)n);
+	str = cpy_nbr((long)n, len, 1);
+	if (str == NULL)
+		return (NULL);
 	return (str);
 }

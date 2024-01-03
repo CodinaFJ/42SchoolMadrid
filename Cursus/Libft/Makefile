@@ -68,7 +68,11 @@ MATH_FILES =	ft_maxmin	\
 STDIO_FILES =	ft_putchar_fd	\
 				ft_putendl_fd	\
 				ft_putnbr_fd	\
-				ft_putstr_fd
+				ft_putnbrlen_fd	\
+				ft_putnbrlen_hex \
+				ft_putstr_fd	\
+				ft_putstrlen_fd	\	
+				ft_putnbr_base
 
 STDLIB_FILES =	frees 		\
 				ft_calloc	\

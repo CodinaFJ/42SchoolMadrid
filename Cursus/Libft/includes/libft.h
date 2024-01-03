@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcodina- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jcodina- <jcodina-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 16:11:23 by jcodina-          #+#    #+#             */
-/*   Updated: 2023/01/10 16:11:24 by jcodina-         ###   ########.fr       */
+/*   Updated: 2024/01/03 09:22:29 by jcodina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
+# include <limits.h>
 
 /* ************************************************************************** */
 /*   Typedefs															      */
@@ -26,6 +27,12 @@ typedef struct s_list
 	void			*content;
 	struct s_list	*next;
 }	t_list;
+
+typedef enum e_capital_letters
+{
+	LOW = 0,
+	HIGH = 1
+};
 
 /* ************************************************************************** */
 /*   Functions															      */
@@ -84,6 +91,10 @@ void			ft_putstr_fd(char *s, int fd);
 int				ft_putstrlen_fd(char *s, int fd);
 void			ft_putstrendl_fd(char *s, int fd);
 void			ft_putnbr_fd(int nb, int fd);
+int				ft_putnbrlen_fd(long nb, int fd);
+int				ft_putnbrlen_hex(long long nbr, int hex_type);
+void			ft_putnbr_base(long long nbr, char *base);
+int				ft_putnbrlen_base(long long nbr, char *base);
 
 /*							STANDARD_LIBRARY								*/
 
@@ -91,6 +102,7 @@ void			*free_darray(void **strs, int n);
 void			*ft_calloc(size_t count, size_t size);
 int				ft_atoi(const char *nptr);
 char			*ft_itoa(const int n);
+char			*ft_uitoa(const unsigned int n);
 
 /*									STRINGS									*/
 
