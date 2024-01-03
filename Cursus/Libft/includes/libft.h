@@ -81,6 +81,7 @@ long long		ft_powl(const long long base, const long long power);
 
 void			ft_putchar_fd(char c, int fd);
 void			ft_putstr_fd(char *s, int fd);
+int				ft_putstrlen_fd(char *s, int fd);
 void			ft_putstrendl_fd(char *s, int fd);
 void			ft_putnbr_fd(int nb, int fd);
 
